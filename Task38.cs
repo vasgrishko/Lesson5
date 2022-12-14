@@ -38,7 +38,7 @@ int[] FillArray(int length)
     int[] array = new int[length];
     for(int i = 0; i < length; i++)
     {
-        array[i] = new Random().Next(-100, 100);
+        array[i] = new Random().Next(1, 100);
     }
     return array;
 }
